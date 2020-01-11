@@ -1,0 +1,43 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lists+</title>
+	<link rel="stylesheet" href="css/styleTodo.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center">List+</h1>
+
+		<div class="row list-head">
+			<div class="col-md-12">
+				<input type="text" placeholder="Enter a List Item" style="width: 100%" id="todoTextInput" onkeyup="handlers.addTodo(event)">
+			</div>
+		</div>
+
+		<div class="row list-container">
+			<div class="col-md-12">
+				<ul id="todoList">
+					
+				</ul>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<button class="btn" style="width: 100%" id="clearAll">Clear All</button>
+				<button class="btn" style="width: 100%">Clear Selected</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p class="text-center"><i>Created by Connor Beam</i></p>
+			</div>
+		</div>
+	</div>
+
+<script src="appp.js"></script>
+</body>
+</html>
